@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,li{
+    margin: 0 ;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.site-header{
+    background-color: lightcyan;
+    margin-bottom: 81px;
+
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+}
+
+.header-item{
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+
+    opacity: 0.5;
+}
+
+.actev{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+    opacity: 1;
+}
+
+.header-davomi{
+    width: 445px;
+
+}
+
+.header-hiddin{
+    margin: 0;
+    margin-top: 81px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+.header-text{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 47px;
+    /* or 152% */
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+.header-link{
+    background: #458FF6;
+    border-radius: 55px;
+    padding: 16px 41px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.davomi-img{
+    width: 693px;
+    height: 598px;
+}
+
+.header-dmin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 114px;
+}
+
+.site-main{
+    width: 952px;
+    height: 177px; 
+    margin: 0 auto;
+
+}
+
+.servike-hiddin{
+    padding: 0 378px 366px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    /* identical to box height, or 156% */
+    margin: 0 auto;
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.chiziqcha{
+    display: block;
+    background: #000000;
+    border-radius: 5px;
+    width: 52px;
+    height: 2px;
+}
+
+.servike-text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+}
+
+
+
